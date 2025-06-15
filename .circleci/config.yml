@@ -11,7 +11,7 @@ jobs:
       - run:
           name: Deploy to Render
           command: |
-            curl -X POST https://api.render.com/deploy/srv-d166d73ipnbc73en20kg?key=4osa0rUur2A
+            curl -X POST https://api.render.com/deploy/srv-xxxxxxxxxxxx?key=your_deploy_hook_key
 
 workflows:
   version: 2
